@@ -47,9 +47,9 @@ namespace Variables
             button3.Visible = false;
             button4.Visible = false;
 
-            Pi = "3.14";
-            r = "r";
-            A = "A";
+            string.Pi = "3.14";
+            string.r = "r";
+            string.A = "A";
             string.outputLabel.Text = Pi;
             string.outputLabel.Text = r;
             string.outputLabel.Text = A;
@@ -79,10 +79,18 @@ namespace Variables
             button3.Visible = false;
             button4.Visible = false;
 
-            firstName = "Wayne Gretzky";
-            outputLabel.Text = firstName;
-            int numberName = 99;
-            outputLabel.Text = firstName + "is number" + numbername + ".";
+            string.Pi = "3.14";
+            string.r = "r";
+            string.Cost = "Cost";
+            string.outputLabel.Text = Pi;
+            string.outputLabel.Text = r;
+            string.outputLabel.Text = A;
+            string.outputLabel.Text = ^ 2;
+            int Width = 15;
+            int Length = 225;
+            int Width/Length= 706.5;
+            string.outputLabel.Text = Cost + " = " + 19.95 + "(" + Width +'m' + Length + "m)";
+            string.outputLabel.Text = n / "Therefore" + A + "is 706.5.";
 
             Thread.Sleep(5000);
             Clear = (Color.White);
